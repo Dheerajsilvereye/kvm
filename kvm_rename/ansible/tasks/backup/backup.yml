@@ -1,4 +1,5 @@
 ---
+- shell: pwd
 - shell: cat ansible/tasks/backup/backupip.txt
 - shell: head -n1 /var/lib/awx/projects/tata/kvm/ansible/tasks/backup/backupip.txt
   register: ip 
