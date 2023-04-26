@@ -27,3 +27,4 @@
     - name: Create KVM VM
       include_role:
         name: ansible
+
